@@ -40,6 +40,22 @@ JavaScript Literals:
 * const floatLiteral = 2.4
 * const templateLiteral = \`The average American family has ${floatLiteral} kids.\`
 
+Array Helper Methods
+*forEach
+   *Accepts an anonmyous function as a parameter and executes code against each index in the array. This replaces the standard "for"         loop when iterating over an entire array.
+*map
+   *Accepts an anonmyous function as a parameter and executes code against each index in the array. Returns a new array of the same size     as the initial array.
+*filter
+*find
+   *Accepts an anonmyous function as a parameter and executes code against each index in the array searching for a match. Finds the        first element that satisfies the conditional logic and returns it.
+*every
+   *Accepts an anonmyous function as a parameter and executes code against each index in the array to check for truthiness. Returns true    or false depending on whether or not all elements in the array meet the conditional logic.
+*some
+   *Accepts an anonmyous function as a parameter and executes code against each index in the array to check for truthiness. Returns        true  or false depending on whether or not some elements in the array meet the conditional logic.
+*reduce
+   *TODO
+
+
 Closures: The combination of a function and the lexical environment within which that function was declared; a construct of scope that gives functions access to data defined in outer functions.
 
 Callbacks: Callback functions are passed as arguments to higher-order functions to be invoked after the execution of the higher-order function.
